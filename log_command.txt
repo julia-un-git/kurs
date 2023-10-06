@@ -66,4 +66,34 @@ C:\repo\kurs>git branch
 
 C:\repo\kurs>notepad log_command.txt
 
+C:\repo\kurs>git add log_command.txt
+
+C:\repo\kurs>git commit -a -m "add log"
+[homework 51363ee] add log
+ 1 file changed, 69 insertions(+)
+ create mode 100644 log_command.txt
+
+C:\repo\kurs>git checkout master
+Switched to branch 'master'
+
+C:\repo\kurs>git branch
+  homework
+* master
+
+C:\repo\kurs>git add kitajskii-programmist.jpg
+
+C:\repo\kurs>git commit -m "Add picture"
+[master 2b56d1e] Add picture
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 kitajskii-programmist.jpg
+
+C:\repo\kurs>git checkout homework
+Switched to branch 'homework'
+
 C:\repo\kurs>
+
+
+
+
+
+
