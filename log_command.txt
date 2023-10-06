@@ -1,0 +1,69 @@
+Microsoft Windows [Version 10.0.19045.3448]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\ort-y>cd..
+
+C:\Users>cd..
+
+C:\>cd repo
+
+C:\repo>md kurs
+
+C:\repo>cd kurs
+
+C:\repo\kurs>git init
+Initialized empty Git repository in C:/repo/kurs/.git/
+
+C:\repo\kurs>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\repo\kurs>notepad README.md
+
+C:\repo\kurs>git log
+fatal: your current branch 'master' does not have any commits yet
+
+C:\repo\kurs>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\repo\kurs>git add README.md
+
+C:\repo\kurs>git commit -a -m "added text"
+[master (root-commit) 2d9f9f3] added text
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+C:\repo\kurs>git branch homework
+
+C:\repo\kurs>git branch
+  homework
+* master
+
+C:\repo\kurs>git log
+commit 2d9f9f3d432f6048aa74b9cc05a089ebeb552962 (HEAD -> master, homework)
+Author: julia-un-git <146878143+julia-un-git@users.noreply.github.com>
+Date:   Fri Oct 6 11:56:45 2023 +0300
+
+    added text
+
+C:\repo\kurs>git checkout homework
+Switched to branch 'homework'
+
+C:\repo\kurs>git branch
+* homework
+  master
+
+C:\repo\kurs>notepad log_command.txt
+
+C:\repo\kurs>
